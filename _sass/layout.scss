@@ -44,7 +44,62 @@ section {
 	}
 }
 
+.tab-container {
+	background-color: $dark;
+	color: #fff;
+	padding: 30px 0 15px;
+}
+
+.tab {
+	padding-bottom: 30px;
+	&:last-child {
+		padding-bottom: 0;
+	}
+}
+
+img {
+	width: 100%;
+	max-width: 640px;
+}
+
 blockquote {
 	margin: -15px 0 15px;
-	padding: 0 15px 0;
+	padding: 0 20px 0;
+}
+
+footer {
+	background-color: $bdo;
+	padding: 25px;
+	margin-top: 25px;
+	overflow: hidden;
+	.arrow {
+		width: 90px;
+		position: relative;
+		left: 80%;
+		top: -75px;
+		fill: rgba(255,255,255,0.9);
+		margin-bottom: -75px;
+	}
+}
+
+.bottom-b {
+	border-bottom: 1px solid $dark;
+}
+
+.pad-b {
+	padding-bottom: 20px;
+}
+
+.margin-b {
+	margin-bottom: 20px;
+}
+tr {
+	td {
+		border-bottom: 1px solid $dark;
+	}
+	&:last-child {
+		td {
+			border-bottom: 0;
+		}
+	}
 }
