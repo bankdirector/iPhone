@@ -1,0 +1,47 @@
+$bdo: #f37021;
+$dark: rgba(0,0,0,0.75);
+$green: #27ffb5;
+
+@font-face {
+	font-family: 'BellGothic-Light';
+	src: url('../fonts/BellGothic-Light.otf');
+}
+
+@font-face {
+	font-family: 'BellGothic-Bold';
+	src: url('../fonts/BellGothic-Bold.otf');
+}
+
+@font-face {
+	font-family: 'BellGothic-Black';
+	src: url('../fonts/BellGothic-Black.otf');
+}
+
+@font-face {
+	font-family: 'GriffithGothicCond-Light';
+	src: url('../fonts/GriffithGothicCond-Light.ttf');
+}
+
+@font-face {
+	font-family: 'GriffithGothicCond-Black';
+	src: url('../fonts/GriffithGothicCond-Black.ttf');
+}
+
+@font-face {
+	font-family: 'MinionPro-MediumIt';
+	src: url('../fonts/MinionPro-MediumIt.otf');
+}
+
+.orange {
+	color: $bdo;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}

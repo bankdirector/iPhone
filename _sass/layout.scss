@@ -1,0 +1,50 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #fff;
+}
+
+.wrap {
+	padding: 0 25px;
+}
+
+section {
+	background-color: $dark;
+	width: 40%;
+	padding: 8px 0 7px;
+	float: left;
+}
+
+.cut {
+		content: url('../img/cut-box.svg');
+		width: 38px;
+		height: 27px;
+	}
+
+.site-header {
+	background-color: $bdo;
+	padding: 25px 0 10px;
+}
+
+.story {
+	margin-top: 25px;
+	border-bottom: 1px solid $dark;
+	padding-bottom: 20px;
+}
+
+.contact {
+	padding-bottom: 20px;
+	p {
+		margin-top: 20px;
+		}
+	.info {
+		background: url('../img/email.svg') no-repeat 0px;
+	}
+}
+
+blockquote {
+	margin: -15px 0 15px;
+	padding: 0 15px 0;
+}

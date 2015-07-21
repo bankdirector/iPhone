@@ -1,0 +1,39 @@
+---
+---
+
+@import
+  "reset",
+  "config",
+  "layout",
+  "typography";
+
+// LAYOUT
+.author-img {
+	position: relative;
+	height: 80px;
+	width: 80px;
+	border-radius: 80px;
+	float: right;
+	position: absolute;
+	top: 25px;
+	right: 25px;
+	background: url('http://www.bankdirector.com/files/6814/2472/4190/naomi-snyder.png') 50% 20% no-repeat;
+	background-size: 80px;
+}
+
+.byline {
+	margin-top: 10px;
+}
+
+// TYPOGRAPHY
+h2, h3 {
+	border-bottom: 1px solid $dark;
+}
+
+h2 {
+	margin-top: 15px; 
+}
+
+h3 {
+	padding: 5px 0 25px;
+}

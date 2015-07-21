@@ -1,0 +1,77 @@
+body {
+	font-family: 'BellGothic-Light', sans-serif;
+	font-size: 18px;
+	color: $dark;
+}
+
+h1, h2, h3 {
+	text-transform: uppercase;
+	font-size: 18px
+}
+
+h1 {
+	font-family: 'BellGothic-Black', sans-serif;
+}
+
+h2 {
+	font-family: 'GriffithGothicCond-Light', sans-serif;	
+}
+
+h3 {
+	font-family: 'GriffithGothicCond-Black', sans-serif;
+	font-size: 36px;
+}
+
+h4 {
+	font-family: 'GriffithGothicCond-Light', sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+a {
+	color: $dark;
+	text-decoration: none;
+}
+
+strong {
+	font-family: 'BellGothic-Black', sans-serif;
+}
+
+.byline {
+	font-size: 12px;
+}
+
+section p {
+	font-family: 'MinionPro-MediumIt', serif;
+	color: #fff;
+	font-size: 12px;
+	padding-left: 25px;
+}
+
+.story {
+	line-height: 1.3em;
+}
+
+.contact {
+	p {
+		text-align: center;
+	}
+	.info {
+		font-size: 12px;
+		text-align: left;
+		padding-left: 30px;
+	}
+}
+
+blockquote {
+	font-family: 'GriffithGothicCond-Light', sans-serif;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	span {
+		font-family: 'GriffithGothicCond-Black', sans-serif;
+	}
+}
+
+.no-indent {
+	text-indent: 0;
+}
